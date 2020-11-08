@@ -10,6 +10,11 @@ public:
     int value_cents;
     std::string description;
 
+    Customer(std::string in_name, std::string in_address) {
+      set_name(in_name);
+      address = in_address;
+    }
+
     void set_name(std::string new_name) {
         name = new_name;
     }
@@ -27,9 +32,7 @@ public:
 };
 
 int main() {
-    Customer c1 = Customer();
-    c1.set_name("Jake");
-    c1.address = "Worcester, MA";
+    Customer c1 = Customer("Jake", "Worcester, MA");
     std::cout << c1.get_csv();
 
 }
