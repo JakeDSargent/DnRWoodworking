@@ -1,4 +1,5 @@
 Name,Address
+<<<<<<< HEAD
 Jake,Worcester MA^
 Jake,Grantham PA^
 Wave,The Foggy Swamp^
@@ -8,3 +9,11 @@ exe tester,exevul
 Doug Manfred,Dougs House^ PA
 jake,here right now
 Com^hfh^^,Comma^ Place^ PAdoc9ndoms^^
+=======
+Jake,Worcester MA,
+Jake,Grantham PA,
+Wave,The Foggy Swamp,
+Geoff,Geofveof
+test guy,test town TSA
+exe tester,exevul
+>>>>>>> 4b1c48c010c98dfff8f0d1f725e6622e8becb8c6
